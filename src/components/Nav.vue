@@ -17,6 +17,10 @@
         <li class="nav-item">
           <a class="nav-link " href="" ><router-link to="/contacto">Contacto</router-link></a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="" ><router-link to="/login">Login</router-link></a>
+        </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">

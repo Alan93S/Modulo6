@@ -1,13 +1,12 @@
 <template>
-  <div class="tienda">
-    <h1>This is an about page</h1>
-
-  <button type="button" class="" @click="traer()">  
-
-  </button>
-
+  <div class="card" style="width: 18rem;">
+  <img src="" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
-
+</div>
   
 </template>
 
@@ -15,11 +14,14 @@
 
 import Products from "@/components/Products.vue"
 
+
 export default {
 
   components: {
     Products,
-  }
+   
+   
+}
   
 }
 </script>
