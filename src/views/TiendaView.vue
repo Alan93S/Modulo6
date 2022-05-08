@@ -1,14 +1,5 @@
 <template>
-  <div class="tienda">
-    <h1>This is an about page</h1>
-
-  <button type="button" class="" @click="traer()">  
-
-  </button>
-
-  </div>
-
-  
+  <Products />
 </template>
 
 <script>
@@ -20,7 +11,6 @@ export default {
   components: {
     Products,
   }
-  
-}
+  }
 </script>
 
