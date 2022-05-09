@@ -1,5 +1,5 @@
 <template>
-  <div  v-for= "(item,index) in arregloProductos" v-bind:key="index" class="col-md-6">
+  <div  v-for= "(item,index) in arregloProductos" v-bind:key="index" class="col-md-4">
    <div class="card">
     <div class="inner-card"> \
       <img
