@@ -39,9 +39,12 @@
     },
 }
 </script>
+<<<<<<< HEAD
 <style>
 .imagen{
     width: 200px;
     height: 200px;
 }
 </style>
+=======
+>>>>>>> 824440a62feb155b9454d1c3724ee8bfc3ef318f
