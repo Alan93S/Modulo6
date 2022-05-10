@@ -1,0 +1,128 @@
+[
+    {
+      "id": 1,
+      "nombre": "Labial",
+      "precio": "",
+      "imagen": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Shampoo de Argan",
+      "precio": 15000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114312-scaled.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Agua de Florida",
+      "precio": 10000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220129_145325-scaled.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Gel de ducha Verbena",
+      "precio": 10000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114912-scaled.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Bronceador de Zanahoria Autobronceante",
+      "precio": 15000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114944-scaled.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Manteca Corporal",
+      "precio": 10000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_115006.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Jabon liquido con exfoliante",
+      "precio": 7000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114848-scaled.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Crema cicatrizante de tepezcohuite",
+      "precio": 15000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114752-scaled.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Crema contorno de ojos",
+      "precio": 20000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114645.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Estimulador de crecimiento del cabello",
+      "precio": 10000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114336-scaled.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Aceite para el cabello",
+      "precio": 15000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_113933-scaled.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Unguento Analgesico",
+      "precio": 25000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_113909.jpg"
+    },
+    {
+      "id": 13,
+      "nombre": "Aceite de Almendras",
+      "precio": 10000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_113821.jpg"
+    },
+    {
+      "id": 14,
+      "nombre": "Aceite de Jojoba",
+      "precio": 8000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_113759.jpg"
+    },
+    {
+      "id": 15,
+      "nombre": "Aceite de Frambuesa",
+      "precio": 8000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_113654.jpg"
+    },
+    {
+      "id": 16,
+      "nombre": "Agua de Rosas",
+      "precio": 8000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114150-scaled.jpg"
+    },
+    {
+      "id": 17,
+      "nombre": "Crema de CBD Anti-Age",
+      "precio": 35000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114052.jpg"
+    },
+    {
+      "id": 18,
+      "nombre": "Aceite Escencial de limon o naranja",
+      "precio": 10000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20211214_190414.jpg"
+    },
+    {
+      "id": 19,
+      "nombre": "Aceite de CBD 300 mg",
+      "precio": 45000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20211214_132437-scaled.jpg"
+    },
+    {
+      "id": 20,
+      "nombre": "Armonizante Chakra Gargante",
+      "precio": 10000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20211214_131937-scaled.jpg"
+    },
+    {
+      "id": 21,
+      "nombre": "Armonizante Chakra Corazon",
+      "precio": 10000,
+      "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20211214_131906-scaled.jpg"
+    }
+  ]

@@ -40,6 +40,21 @@
 }
 </script>
 <<<<<<< HEAD
+
+
+<style>
+
+.imagen {
+
+  width: 100px;
+
+  height: 100px;
+}
+
+
+</style>
+=======
+<<<<<<< HEAD
 <style>
 .imagen{
     width: 200px;
@@ -48,3 +63,4 @@
 </style>
 =======
 >>>>>>> 824440a62feb155b9454d1c3724ee8bfc3ef318f
+>>>>>>> 56317127050143df6d8164652abd383292f1c6d8
