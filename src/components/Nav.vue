@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-black bg-light">
     <div class="container-fluid">
       <img src="" alt="" height="100px" width="100px" />
       <a class="navbar-brand" href="#">Cosmetica Natural</a>
@@ -15,7 +15,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class=" navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href=""
               ><router-link to="/">Inicio</router-link></a
@@ -39,7 +39,7 @@
             >
           </li>
         </ul>
-        <Search />
+
       </div>
     </div>
   </nav>
@@ -57,4 +57,19 @@ export default {
 </script>
 
 <style>
+a:visited{
+  color: black;
+}
+a:active{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  
+
+}
+a:link{
+  text-decoration: none;
+  color: black;
+}
 </style>
