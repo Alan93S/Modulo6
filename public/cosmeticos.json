@@ -1,10 +1,5 @@
 [
-    {
-      "id": 1,
-      "nombre": "Labial",
-      "precio": "",
-      "imagen": ""
-    },
+   
     {
       "id": 2,
       "nombre": "Shampoo de Argan",
@@ -25,7 +20,7 @@
     },
     {
       "id": 5,
-      "nombre": "Bronceador de Zanahoria Autobronceante",
+      "nombre": "Bronceador de Zanahoria",
       "precio": 15000,
       "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114944-scaled.jpg"
     },
@@ -43,7 +38,7 @@
     },
     {
       "id": 8,
-      "nombre": "Crema cicatrizante de tepezcohuite",
+      "nombre": "Crema cicatrizante",
       "precio": 15000,
       "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114752-scaled.jpg"
     },
@@ -55,7 +50,7 @@
     },
     {
       "id": 10,
-      "nombre": "Estimulador de crecimiento del cabello",
+      "nombre": "Spray de crecimiento capilar",
       "precio": 10000,
       "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20220123_114336-scaled.jpg"
     },
@@ -103,7 +98,7 @@
     },
     {
       "id": 18,
-      "nombre": "Aceite Escencial de limon o naranja",
+      "nombre": "Aceite de limon",
       "precio": 10000,
       "imagen": "https://amandaagni.com/wp-content/uploads/2022/05/IMG_20211214_190414.jpg"
     },
