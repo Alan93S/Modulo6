@@ -36,9 +36,9 @@ fetch("cosmeticos.json")
 </script>
 <style scoped>
 .card-image{
-/* max-height: 200px; */
+height: 200px; 
 padding: 25px;
-/* width: auto; */
+ width: 200px;
 }
 .card-img-top{
 width: 190px;
