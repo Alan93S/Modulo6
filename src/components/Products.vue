@@ -1,5 +1,6 @@
 <template>
-<div v-for= "(item,index) in arregloProductos" v-bind:key="index" class="col">
+<input type="text" v-model="buscar" class="form-control" placeholder="Busca tu producto "/>
+<div v-for= "(item,index) in items" :key="index" class="col-md-3">
 <div class="card shadow">
 <h5 class="card-title">{{item.nombre}}</h5>
 <img class="card-img-top card-image" :src="item.imagen" alt="Card image cap">
@@ -24,14 +25,25 @@ export default {
 name: 'Products',
 
 data: () =>({
-arregloProductos:[]
+arregloProductos:[],
+buscar: ""
+
 }),
+
 
 mounted () {
 fetch("cosmeticos.json")
 .then(response=>response.json())
 .then((datos)=>{this.arregloProductos=datos;})
 },
+computed: {
+    items() {
+      return this.arregloProductos.filter(item => {
+        return item.nombre.toLowerCase().includes(this.buscar.toLowerCase());
+      });
+ 
+  },
+}
 }
 </script>
 <style scoped>

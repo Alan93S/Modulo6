@@ -1,4 +1,6 @@
 <template>
+
+ 
 <div class="row">
   <Products />
 </div>
