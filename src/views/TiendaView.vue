@@ -1,5 +1,7 @@
 <template>
+<div class="row">
   <Products />
+</div>
 </template>
 
 <script>
