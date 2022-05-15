@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-black bg-light">
+  <nav class="navbar navbar-expand-lg navbar-black bg-primary">
     <div class="container-fluid">
       <img src="" alt="" height="100px" width="100px" />
       <a class="navbar-brand" href="#">Cosmetica Natural</a>
