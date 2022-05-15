@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 <input type="text" v-model="buscar" class="form-control" placeholder="Busca tu producto "/>
 <div v-for= "(item,index) in items" :key="index" class="col-md-3">
 <div class="card shadow">
@@ -27,10 +27,9 @@ name: 'Products',
 data: () =>({
 arregloProductos:[],
 buscar: ""
+  
 
 }),
-
-
 mounted () {
 fetch("cosmeticos.json")
 .then(response=>response.json())
@@ -45,6 +44,7 @@ computed: {
   },
 }
 }
+
 </script>
 <style scoped>
 .card-image{
@@ -81,4 +81,31 @@ border:1px solid black
 .card-body{
 margin-top: 0px;
 }
-</style>
+</style> -->
+
+
+
+<template>
+    <div class="card h-100 w-100 ">
+        <img :src="producto.imagen" :alt="`imagen ${producto.nombre}`" class="card-img-top h-50 w-50 " />
+        <div class="card-body">
+        <h5 class="card-title">{{producto.nombre}}</h5>
+        <p class="card-text">$ <span>{{producto.precio}}</span></p>
+        <button class="btn btn-dark" @click="comprar(producto)">Comprar</button>
+        </div>
+    </div>
+</template>
+
+<script>
+import {useStore} from 'vuex'
+export default {
+    props: ['producto'],
+    setup(){
+        const store = useStore()
+        const comprar = producto => {
+            store.dispatch('agregarCarrito', producto)
+        }
+        return {comprar}
+    }
+}
+</script>

@@ -2,20 +2,24 @@
 
  
 <div class="row">
-  <Products />
+  <Card />
 </div>
+
 </template>
 
 <script>
 
-import Products from "@/components/Products.vue"
+
+import Card from "@/components/Card.vue"
+
 
 
 export default {
 
   components: {
-    Products,
-  }
+    
+    Card
+}
   }
 </script>
 
