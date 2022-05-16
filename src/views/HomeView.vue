@@ -7,7 +7,7 @@
 
 <script>
 // @ is an alias to /src
-import auth from "@/logic/auth";
+
 export default {
   name: 'HomeView',
   components: {

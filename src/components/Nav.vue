@@ -38,6 +38,9 @@
               ><router-link to="/login">Login</router-link></a
             >
           </li>
+          <li>
+            <button id="show-modal" @click="showModal = true">Show Modal</button>
+          </li>
         </ul>
 
       </div>

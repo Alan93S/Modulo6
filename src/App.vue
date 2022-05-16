@@ -51,6 +51,8 @@ export default {
 
 <template>
   <div class="container">
+    <Nav />
+    <router-view />
     <h1>Carrito con vue.js</h1>
     <hr>
     <Carrito />
@@ -72,11 +74,17 @@ import {useStore} from 'vuex'
 import { computed, onMounted } from 'vue'
 import Card from './components/Card'
 import Carrito from './components/Carrito'
+import Nav from './components/Nav.vue'
 
 export default {
   name: 'App',
   components: {
-    Card, Carrito
+    Card, Carrito,Nav
+  },
+  data(){
+    return{
+      showModal: false
+    }
   },
   setup(){
     const store = useStore()

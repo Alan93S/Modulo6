@@ -1,4 +1,34 @@
+
 <template>
+  <Transition name="modal" id="carro">
+    <div v-if="show" class="modal-mask">
+      <div class="modal-wrapper">
+        <div class="modal-container">
+          <div class="modal-header">
+            <slot name="header">default header</slot>
+          </div>
+
+          <div class="modal-body">
+             <Items
+                    v-for="item in carrito" :key="item.id"
+                    :item="item"
+                />
+          </div>
+
+          <div class="modal-footer">
+            <th scope="row" colspan="5" v-if="Object.keys(carrito).length === 0">Carrito vacío - comience a comprar!</th>
+                <Footer v-else/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Transition>
+</template>
+
+
+
+
+<!-- <template>
     <div class="my-5">
         <h4>Carrito de compras</h4>
         <table class="table">
@@ -25,7 +55,7 @@
             </tfoot>
         </table>
     </div>
-</template>
+</template> -->
 
 <script>
 import { computed } from 'vue'
@@ -33,6 +63,9 @@ import {useStore} from 'vuex'
 import Items from './Items'
 import Footer from './Footer'
 export default {
+    props: {
+        show: Boolean
+    },
     components: {Items, Footer},
     setup(){
         const store = useStore()
@@ -42,3 +75,7 @@ export default {
     }
 }
 </script>
+
+
+
+
