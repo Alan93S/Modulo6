@@ -10,13 +10,36 @@
   </form>
 </template>
 
+
 <script>
+
+
 export default {
 
+      //   data: () =>({
+      //     arregloProductos:[],
+      //     buscar: ""
+        
+
+      // }),
+      //   mounted () {
+      // fetch("cosmeticos.json")
+      // .then(response=>response.json())
+      // .then((datos)=>{this.arregloProductos=datos;})
+      // },
+      //   computed: {
+      //     items() {
+      //       return this.arregloProductos.filter(item => {
+      //         return item.nombre.toLowerCase().includes(this.buscar.toLowerCase());
+      //       });
+      
+      //   },
+      // }
+}
 
 
 
-};
+
 </script>
 
 <style>
