@@ -1,8 +1,9 @@
 <template>
   <tr>
-    <th scope="row">{{item.id}}</th>
+    
     <td>{{item.nombre}}</td>
-    <td>{{item.cantidad}}</td>
+    <br>
+    <td>{{item.cantidad}}</td><br>
     <img class="imagencarro" :src="item.imagen" alt="">
     <td>
         <button class="btn btn-info btn-sm" @click="aumentar(item.id)">

@@ -7,20 +7,23 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
-                    <tr>
-                <th scope="col">#</th>
-                <th scope="col">Item</th>
-                <th scope="col">Cantidad</th>
-                <th scope="col">Imagen</th>
-                <th scope="col">Total</th>
-            </tr>
+                    <h5 class="modal-title">Carrito</h5>
+           
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true" @click="showModal = false">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                    <tbody id="items">
+                             <thead>
+            <tr class="lista">
+                
+                <th scope="col">Producto</th><br>
+                <th scope="col">Cantidad</th><br>
+                <th scope="col">Acción</th><br>
+                <th scope="col">Total</th>
+            </tr>
+            </thead>
                 <Items
                     v-for="item in carrito" :key="item.id"
                     :item="item"
@@ -41,7 +44,7 @@
       </div>
     </transition>
   </div>
-  <button @click="showModal = true">Click</button>
+  <button class="btn btn-primary " @click="showModal = true"><img class="botoncomprar" src="https://compudeep.github.io/compudeep-tienda-en-linea-/imagenes/carrito.png" alt=""></button>
 </template>
 
 <script>
@@ -81,5 +84,11 @@ export default {
   display: table-cell;
   vertical-align: middle;
 }
-
+.lista{
+    margin: 20px;
+}
+.botoncomprar{
+    height: 50px;
+    width: 50;
+}   
 </style>
