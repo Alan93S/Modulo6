@@ -13,7 +13,7 @@
       
       <label class="form-label" for="#password">Password:</label>
       <input
-       
+       v-model="pass"
         class="form-input"
         type="password"
         id="password"
@@ -33,13 +33,15 @@
 
 
 export default {
-
+ 
+  
   data(){
     
     return {
+      pass:"",
       mail :"",
       user : "admin@admin.cl",
-      pass : "admin",
+      password : "admin",
     }
     
   },
@@ -47,13 +49,15 @@ export default {
   methods: {
     validarUsuario(){
       if(this.mail === this.user ){
-        console.log("si")
-      }
-      else{
-        console.log("ño")
-      }
+    console.log("correcto")
+    
+  }else{
+   alert("Datos Erroneos")
+  }
+  
+    }  
+    
     }
-  },
 
 };
 </script>
