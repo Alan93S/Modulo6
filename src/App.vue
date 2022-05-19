@@ -50,7 +50,6 @@ export default {
 
 
 <template>
-
   <Nav/>
   <router-view />
   

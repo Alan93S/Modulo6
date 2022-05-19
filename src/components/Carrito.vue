@@ -1,3 +1,4 @@
+
 <template>
    <div v-if="showModal">
     <transition name="modal">
@@ -53,6 +54,9 @@ import {useStore} from 'vuex'
 import Items from './Items'
 import Footer from './Footer'
 export default {
+    props: {
+        show: Boolean
+    },
     components: {Items, Footer},
     setup(){
         const store = useStore()
