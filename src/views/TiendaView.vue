@@ -58,7 +58,7 @@ export default {
     <Carrito />
     <div class="row">
       <div> 
-<input type="text" v-model="buscar" class="form-control" placeholder="Ejemplo: Charmander"/>
+<input type="text" v-model="buscar" class="form-control" placeholder="Buscar"/>
  
 </div>
       <div 
@@ -80,7 +80,7 @@ import { computed, onMounted } from 'vue'
 import Card from '@/components/Card'
 import Carrito from '@/components/Carrito'
 import Search from "@/components/Search.vue";
-import datos from "C:/Users/lukas/OneDrive/Escritorio/Modulo6/public/cosmeticos.json"
+import datos from "/public/cosmeticos.json"
 
 export default {
   name: 'App',
@@ -115,4 +115,9 @@ computed: {
   
 }
 </script>
+
+<style>
+
+
+</style>
 

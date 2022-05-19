@@ -97,7 +97,7 @@ margin-top: 0px;
 </template>
 
 <script>
-import datos from "C:/Users/lukas/OneDrive/Escritorio/Modulo6/public/cosmeticos.json"
+import datos from "/public/cosmeticos.json"
 import {useStore} from 'vuex'
 export default {
     props: ['producto'],
