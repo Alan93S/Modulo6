@@ -38,9 +38,7 @@
               ><router-link to="/login">Login</router-link></a
             >
           </li>
-          <li>
-            <button id="show-modal" @click="showModal = true">Show Modal</button>
-          </li>
+        
         </ul>
 
       </div>
@@ -51,10 +49,11 @@
 
 <script>
 
-
+import Login from './Login.vue'
 export default {
   name: "Nav",
   components: {
+    Login,
     
   },
 };

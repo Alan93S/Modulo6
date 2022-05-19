@@ -3,54 +3,62 @@
     <h1 class="title">Login in the page</h1>
     <form action class="form" @submit.prevent="login">
       <label class="form-label" for="#email">Email:</label>
-      <input
-        v-model="email"
+      <input v-model="mail"
         class="form-input"
         type="email"
         id="email"
         required
         placeholder="Email"
       >
+      
       <label class="form-label" for="#password">Password:</label>
       <input
-        v-model="password"
+       v-model="pass"
         class="form-input"
         type="password"
         id="password"
         placeholder="Password"
       >
-      <p v-if="error" class="error">Has introducido mal el email o la contraseña.</p>
-      <input class="form-submit" type="submit" value="Login">
+     
+      
+      <input class="form-submit" type="submit" value="Login" @click="validarUsuario()">
     </form>
-    <p class="msg">¿No tienes cuenta?
-      <router-link to="/register">Regístrate</router-link>
-    </p>
+   
+ 
   </div>
 </template>
 
 <script>
-import auth from "@/logic/auth";
+
+
+
 export default {
-  data: () => ({
-    email: "",
-    password: "",
-    error: false
-  }),
-  methods: {
-    async login() {
-      try {
-        await auth.login(this.email, this.password);
-        const user = {
-          email: this.email
-        };
-        auth.setUserLogged(user);
-        this.$router.push("/");
-      } catch (error) {
-        console.log(error);
-        this.error = true;
-      }
+ 
+  
+  data(){
+    
+    return {
+      pass:"",
+      mail :"",
+      user : "admin@admin.cl",
+      password : "admin",
     }
+    
+  },
+ 
+  methods: {
+    validarUsuario(){
+      if(this.mail === this.user ){
+    console.log("correcto")
+    
+  }else{
+   alert("Datos Erroneos")
   }
+  
+    }  
+    
+    }
+
 };
 </script>
 
