@@ -97,6 +97,7 @@ margin-top: 0px;
 </template>
 
 <script>
+import datos from "C:/Users/lukas/OneDrive/Escritorio/Modulo6/public/cosmeticos.json"
 import {useStore} from 'vuex'
 export default {
     props: ['producto'],
@@ -105,19 +106,22 @@ export default {
       buscar: ''
     }
   },
-  computed: {
-    items() {
-      return datos.filter(item => {
-        return item.nombre.toLowerCase().includes(this.buscar.toLowerCase());
-      });
-    },
     setup(){
         const store = useStore()
         const comprar = producto => {
             store.dispatch('agregarCarrito', producto)
         }
         return {comprar}
-    }
+    },
+     computed: {
+    items() {
+      return datos.filter(producto => {
+        return producto.nombre.toLowerCase().includes(this.buscar.toLowerCase());
+      });
+    },
+ 
+  }
 }
-}
+
+
 </script>
