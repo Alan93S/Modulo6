@@ -100,6 +100,17 @@ margin-top: 0px;
 import {useStore} from 'vuex'
 export default {
     props: ['producto'],
+     data() {
+    return {
+      buscar: ''
+    }
+  },
+  computed: {
+    items() {
+      return datos.filter(item => {
+        return item.nombre.toLowerCase().includes(this.buscar.toLowerCase());
+      });
+    },
     setup(){
         const store = useStore()
         const comprar = producto => {
@@ -107,5 +118,6 @@ export default {
         }
         return {comprar}
     }
+}
 }
 </script>

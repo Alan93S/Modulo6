@@ -45,16 +45,17 @@
 
       </div>
     </div>
+    
   </nav>
 </template>
 
 <script>
-import Search from "@/components/Search.vue";
+
 
 export default {
   name: "Nav",
   components: {
-    Search,
+    
   },
 };
 </script>
